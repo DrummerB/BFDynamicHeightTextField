@@ -1,0 +1,419 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC6EECEC1ACDA859002F21FB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EC6EECEB1ACDA859002F21FB /* AppDelegate.m */; };
+		EC6EECEE1ACDA859002F21FB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EC6EECED1ACDA859002F21FB /* main.m */; };
+		EC6EECF11ACDA859002F21FB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC6EECF01ACDA859002F21FB /* ViewController.m */; };
+		EC6EECF31ACDA859002F21FB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC6EECF21ACDA859002F21FB /* Images.xcassets */; };
+		EC6EECF61ACDA859002F21FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC6EECF41ACDA859002F21FB /* Main.storyboard */; };
+		EC6EED021ACDA859002F21FB /* DynamicHeightTextFieldTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EC6EED011ACDA859002F21FB /* DynamicHeightTextFieldTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EC6EECFC1ACDA859002F21FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC6EECDD1ACDA859002F21FB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC6EECE41ACDA859002F21FB;
+			remoteInfo = DynamicHeightTextField;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EC6EECE51ACDA859002F21FB /* DynamicHeightTextField.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DynamicHeightTextField.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC6EECE91ACDA859002F21FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC6EECEA1ACDA859002F21FB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EC6EECEB1ACDA859002F21FB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EC6EECED1ACDA859002F21FB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EC6EECEF1ACDA859002F21FB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EC6EECF01ACDA859002F21FB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EC6EECF21ACDA859002F21FB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EC6EECF51ACDA859002F21FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EC6EECFB1ACDA859002F21FB /* DynamicHeightTextFieldTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DynamicHeightTextFieldTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC6EED001ACDA859002F21FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC6EED011ACDA859002F21FB /* DynamicHeightTextFieldTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DynamicHeightTextFieldTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC6EECE21ACDA859002F21FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC6EECF81ACDA859002F21FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC6EECDC1ACDA859002F21FB = {
+			isa = PBXGroup;
+			children = (
+				EC6EECE71ACDA859002F21FB /* DynamicHeightTextField */,
+				EC6EECFE1ACDA859002F21FB /* DynamicHeightTextFieldTests */,
+				EC6EECE61ACDA859002F21FB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC6EECE61ACDA859002F21FB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC6EECE51ACDA859002F21FB /* DynamicHeightTextField.app */,
+				EC6EECFB1ACDA859002F21FB /* DynamicHeightTextFieldTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC6EECE71ACDA859002F21FB /* DynamicHeightTextField */ = {
+			isa = PBXGroup;
+			children = (
+				EC6EECEA1ACDA859002F21FB /* AppDelegate.h */,
+				EC6EECEB1ACDA859002F21FB /* AppDelegate.m */,
+				EC6EECEF1ACDA859002F21FB /* ViewController.h */,
+				EC6EECF01ACDA859002F21FB /* ViewController.m */,
+				EC6EECF21ACDA859002F21FB /* Images.xcassets */,
+				EC6EECF41ACDA859002F21FB /* Main.storyboard */,
+				EC6EECE81ACDA859002F21FB /* Supporting Files */,
+			);
+			path = DynamicHeightTextField;
+			sourceTree = "<group>";
+		};
+		EC6EECE81ACDA859002F21FB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EC6EECE91ACDA859002F21FB /* Info.plist */,
+				EC6EECED1ACDA859002F21FB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EC6EECFE1ACDA859002F21FB /* DynamicHeightTextFieldTests */ = {
+			isa = PBXGroup;
+			children = (
+				EC6EED011ACDA859002F21FB /* DynamicHeightTextFieldTests.m */,
+				EC6EECFF1ACDA859002F21FB /* Supporting Files */,
+			);
+			path = DynamicHeightTextFieldTests;
+			sourceTree = "<group>";
+		};
+		EC6EECFF1ACDA859002F21FB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EC6EED001ACDA859002F21FB /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC6EECE41ACDA859002F21FB /* DynamicHeightTextField */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC6EED051ACDA859002F21FB /* Build configuration list for PBXNativeTarget "DynamicHeightTextField" */;
+			buildPhases = (
+				EC6EECE11ACDA859002F21FB /* Sources */,
+				EC6EECE21ACDA859002F21FB /* Frameworks */,
+				EC6EECE31ACDA859002F21FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DynamicHeightTextField;
+			productName = DynamicHeightTextField;
+			productReference = EC6EECE51ACDA859002F21FB /* DynamicHeightTextField.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EC6EECFA1ACDA859002F21FB /* DynamicHeightTextFieldTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC6EED081ACDA859002F21FB /* Build configuration list for PBXNativeTarget "DynamicHeightTextFieldTests" */;
+			buildPhases = (
+				EC6EECF71ACDA859002F21FB /* Sources */,
+				EC6EECF81ACDA859002F21FB /* Frameworks */,
+				EC6EECF91ACDA859002F21FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC6EECFD1ACDA859002F21FB /* PBXTargetDependency */,
+			);
+			name = DynamicHeightTextFieldTests;
+			productName = DynamicHeightTextFieldTests;
+			productReference = EC6EECFB1ACDA859002F21FB /* DynamicHeightTextFieldTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC6EECDD1ACDA859002F21FB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Balazs Faludi";
+				TargetAttributes = {
+					EC6EECE41ACDA859002F21FB = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					EC6EECFA1ACDA859002F21FB = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = EC6EECE41ACDA859002F21FB;
+					};
+				};
+			};
+			buildConfigurationList = EC6EECE01ACDA859002F21FB /* Build configuration list for PBXProject "DynamicHeightTextField" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC6EECDC1ACDA859002F21FB;
+			productRefGroup = EC6EECE61ACDA859002F21FB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC6EECE41ACDA859002F21FB /* DynamicHeightTextField */,
+				EC6EECFA1ACDA859002F21FB /* DynamicHeightTextFieldTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC6EECE31ACDA859002F21FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC6EECF31ACDA859002F21FB /* Images.xcassets in Resources */,
+				EC6EECF61ACDA859002F21FB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC6EECF91ACDA859002F21FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC6EECE11ACDA859002F21FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC6EECF11ACDA859002F21FB /* ViewController.m in Sources */,
+				EC6EECEE1ACDA859002F21FB /* main.m in Sources */,
+				EC6EECEC1ACDA859002F21FB /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC6EECF71ACDA859002F21FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC6EED021ACDA859002F21FB /* DynamicHeightTextFieldTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EC6EECFD1ACDA859002F21FB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC6EECE41ACDA859002F21FB /* DynamicHeightTextField */;
+			targetProxy = EC6EECFC1ACDA859002F21FB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EC6EECF41ACDA859002F21FB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC6EECF51ACDA859002F21FB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EC6EED031ACDA859002F21FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		EC6EED041ACDA859002F21FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		EC6EED061ACDA859002F21FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = DynamicHeightTextField/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EC6EED071ACDA859002F21FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = DynamicHeightTextField/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EC6EED091ACDA859002F21FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DynamicHeightTextFieldTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DynamicHeightTextField.app/Contents/MacOS/DynamicHeightTextField";
+			};
+			name = Debug;
+		};
+		EC6EED0A1ACDA859002F21FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DynamicHeightTextFieldTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DynamicHeightTextField.app/Contents/MacOS/DynamicHeightTextField";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC6EECE01ACDA859002F21FB /* Build configuration list for PBXProject "DynamicHeightTextField" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC6EED031ACDA859002F21FB /* Debug */,
+				EC6EED041ACDA859002F21FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC6EED051ACDA859002F21FB /* Build configuration list for PBXNativeTarget "DynamicHeightTextField" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC6EED061ACDA859002F21FB /* Debug */,
+				EC6EED071ACDA859002F21FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EC6EED081ACDA859002F21FB /* Build configuration list for PBXNativeTarget "DynamicHeightTextFieldTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC6EED091ACDA859002F21FB /* Debug */,
+				EC6EED0A1ACDA859002F21FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC6EECDD1ACDA859002F21FB /* Project object */;
+}
