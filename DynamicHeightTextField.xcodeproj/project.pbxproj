@@ -12,18 +12,8 @@
 		EC6EECF11ACDA859002F21FB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC6EECF01ACDA859002F21FB /* ViewController.m */; };
 		EC6EECF31ACDA859002F21FB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC6EECF21ACDA859002F21FB /* Images.xcassets */; };
 		EC6EECF61ACDA859002F21FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC6EECF41ACDA859002F21FB /* Main.storyboard */; };
-		EC6EED021ACDA859002F21FB /* DynamicHeightTextFieldTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EC6EED011ACDA859002F21FB /* DynamicHeightTextFieldTests.m */; };
+		EC6EED0D1ACDA86D002F21FB /* BFDynamicHeightTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = EC6EED0C1ACDA86D002F21FB /* BFDynamicHeightTextField.m */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		EC6EECFC1ACDA859002F21FB /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = EC6EECDD1ACDA859002F21FB /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = EC6EECE41ACDA859002F21FB;
-			remoteInfo = DynamicHeightTextField;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		EC6EECE51ACDA859002F21FB /* DynamicHeightTextField.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DynamicHeightTextField.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -35,20 +25,12 @@
 		EC6EECF01ACDA859002F21FB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		EC6EECF21ACDA859002F21FB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		EC6EECF51ACDA859002F21FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		EC6EECFB1ACDA859002F21FB /* DynamicHeightTextFieldTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DynamicHeightTextFieldTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		EC6EED001ACDA859002F21FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EC6EED011ACDA859002F21FB /* DynamicHeightTextFieldTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DynamicHeightTextFieldTests.m; sourceTree = "<group>"; };
+		EC6EED0B1ACDA86D002F21FB /* BFDynamicHeightTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BFDynamicHeightTextField.h; sourceTree = "<group>"; };
+		EC6EED0C1ACDA86D002F21FB /* BFDynamicHeightTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BFDynamicHeightTextField.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		EC6EECE21ACDA859002F21FB /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		EC6EECF81ACDA859002F21FB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -62,7 +44,6 @@
 			isa = PBXGroup;
 			children = (
 				EC6EECE71ACDA859002F21FB /* DynamicHeightTextField */,
-				EC6EECFE1ACDA859002F21FB /* DynamicHeightTextFieldTests */,
 				EC6EECE61ACDA859002F21FB /* Products */,
 			);
 			sourceTree = "<group>";
@@ -71,7 +52,6 @@
 			isa = PBXGroup;
 			children = (
 				EC6EECE51ACDA859002F21FB /* DynamicHeightTextField.app */,
-				EC6EECFB1ACDA859002F21FB /* DynamicHeightTextFieldTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -83,6 +63,8 @@
 				EC6EECEB1ACDA859002F21FB /* AppDelegate.m */,
 				EC6EECEF1ACDA859002F21FB /* ViewController.h */,
 				EC6EECF01ACDA859002F21FB /* ViewController.m */,
+				EC6EED0B1ACDA86D002F21FB /* BFDynamicHeightTextField.h */,
+				EC6EED0C1ACDA86D002F21FB /* BFDynamicHeightTextField.m */,
 				EC6EECF21ACDA859002F21FB /* Images.xcassets */,
 				EC6EECF41ACDA859002F21FB /* Main.storyboard */,
 				EC6EECE81ACDA859002F21FB /* Supporting Files */,
@@ -95,23 +77,6 @@
 			children = (
 				EC6EECE91ACDA859002F21FB /* Info.plist */,
 				EC6EECED1ACDA859002F21FB /* main.m */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		EC6EECFE1ACDA859002F21FB /* DynamicHeightTextFieldTests */ = {
-			isa = PBXGroup;
-			children = (
-				EC6EED011ACDA859002F21FB /* DynamicHeightTextFieldTests.m */,
-				EC6EECFF1ACDA859002F21FB /* Supporting Files */,
-			);
-			path = DynamicHeightTextFieldTests;
-			sourceTree = "<group>";
-		};
-		EC6EECFF1ACDA859002F21FB /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				EC6EED001ACDA859002F21FB /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -136,24 +101,6 @@
 			productReference = EC6EECE51ACDA859002F21FB /* DynamicHeightTextField.app */;
 			productType = "com.apple.product-type.application";
 		};
-		EC6EECFA1ACDA859002F21FB /* DynamicHeightTextFieldTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = EC6EED081ACDA859002F21FB /* Build configuration list for PBXNativeTarget "DynamicHeightTextFieldTests" */;
-			buildPhases = (
-				EC6EECF71ACDA859002F21FB /* Sources */,
-				EC6EECF81ACDA859002F21FB /* Frameworks */,
-				EC6EECF91ACDA859002F21FB /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				EC6EECFD1ACDA859002F21FB /* PBXTargetDependency */,
-			);
-			name = DynamicHeightTextFieldTests;
-			productName = DynamicHeightTextFieldTests;
-			productReference = EC6EECFB1ACDA859002F21FB /* DynamicHeightTextFieldTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -165,10 +112,6 @@
 				TargetAttributes = {
 					EC6EECE41ACDA859002F21FB = {
 						CreatedOnToolsVersion = 6.1;
-					};
-					EC6EECFA1ACDA859002F21FB = {
-						CreatedOnToolsVersion = 6.1;
-						TestTargetID = EC6EECE41ACDA859002F21FB;
 					};
 				};
 			};
@@ -186,7 +129,6 @@
 			projectRoot = "";
 			targets = (
 				EC6EECE41ACDA859002F21FB /* DynamicHeightTextField */,
-				EC6EECFA1ACDA859002F21FB /* DynamicHeightTextFieldTests */,
 			);
 		};
 /* End PBXProject section */
@@ -201,13 +143,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EC6EECF91ACDA859002F21FB /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -217,27 +152,12 @@
 			files = (
 				EC6EECF11ACDA859002F21FB /* ViewController.m in Sources */,
 				EC6EECEE1ACDA859002F21FB /* main.m in Sources */,
+				EC6EED0D1ACDA86D002F21FB /* BFDynamicHeightTextField.m in Sources */,
 				EC6EECEC1ACDA859002F21FB /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EC6EECF71ACDA859002F21FB /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				EC6EED021ACDA859002F21FB /* DynamicHeightTextFieldTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		EC6EECFD1ACDA859002F21FB /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = EC6EECE41ACDA859002F21FB /* DynamicHeightTextField */;
-			targetProxy = EC6EECFC1ACDA859002F21FB /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		EC6EECF41ACDA859002F21FB /* Main.storyboard */ = {
@@ -349,42 +269,6 @@
 			};
 			name = Release;
 		};
-		EC6EED091ACDA859002F21FB /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = DynamicHeightTextFieldTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DynamicHeightTextField.app/Contents/MacOS/DynamicHeightTextField";
-			};
-			name = Debug;
-		};
-		EC6EED0A1ACDA859002F21FB /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = DynamicHeightTextFieldTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DynamicHeightTextField.app/Contents/MacOS/DynamicHeightTextField";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -404,14 +288,7 @@
 				EC6EED071ACDA859002F21FB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		EC6EED081ACDA859002F21FB /* Build configuration list for PBXNativeTarget "DynamicHeightTextFieldTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				EC6EED091ACDA859002F21FB /* Debug */,
-				EC6EED0A1ACDA859002F21FB /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  BFDynamicHeightTextField.h
 //  BFDynamicHeightTextField
 //
 //  Created by Balazs Faludi on 02.04.15.
@@ -8,8 +8,6 @@
 
 #import <Cocoa/Cocoa.h>
 
-@interface ViewController : NSViewController
-
+@interface BFDynamicHeightTextField : NSTextField
 
 @end
-
